@@ -7,70 +7,73 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
 
     <title>Formulário</title>
   </head>
   <body>
     <h1>Formulário de Cadastro</h1>
 
-    <!-- Formulário de cadastro -->
-    <form>
-        <!-- Campo nome -->
-        <div class="form-group">
-            <label for="nome">Nome completo</label>
-            <input type="text" class="form-control" id="nome" placeholder="Digite o seu nome">
-        </div>
+    <div class="container">
+        <!-- Formulário de cadastro -->
+        <form>
+            <!-- Campo nome -->
+            <div class="form-group">
+                <label for="nome">Nome completo</label>
+                <input type="text" class="form-control" id="nome" placeholder="Digite o seu nome">
+            </div>
 
-        <!-- Campo e-mail -->
-        <div class="form-group">
-            <label for="email">Informe seu E-mail</label>
-            <input type="email" class="form-control" id="email" placeholder="Digite o seu e-mail">
-        </div>
+            <!-- Campo e-mail -->
+            <div class="form-group">
+                <label for="email">Informe seu E-mail</label>
+                <input type="email" class="form-control" id="email" placeholder="Digite o seu e-mail">
+            </div>
 
-        <!-- Campo telefone -->
-        <div class="form-group">
-            <label for="tel">Informe seu Telefone</label>
-            <input type="email" class="form-control" id="tel" placeholder="Digite o seu telefone">
-        </div>
+            <!-- Campo telefone -->
+            <div class="form-group">
+                <label for="tel">Informe seu Telefone</label>
+                <input type="email" class="form-control" id="tel" placeholder="Digite o seu telefone">
+            </div>
 
-        <!-- Campo genero -->
-        <p>Sexo</p>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="genero" id="masculino" value="masculino">
-            <label class="form-check-label" for="masculino">Masculino</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="genero" id="feminino" value="feminino">
-            <label class="form-check-label" for="feminino">Feminino</label>
-        </div>
+            <!-- Campo genero -->
+            <p>Sexo</p>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="genero" id="masculino" value="masculino">
+                <label class="form-check-label" for="masculino">Masculino</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="genero" id="feminino" value="feminino">
+                <label class="form-check-label" for="feminino">Feminino</label>
+            </div>
 
-        <!-- Campo data nascimento -->
-        <div class="form-group">
-            <label for="data-nas">Data de nascimento</label>
-            <input type="date" class="form-control" id="data-nas">
-        </div>
+            <!-- Campo data nascimento -->
+            <div class="form-group">
+                <label for="data-nas">Data de nascimento</label>
+                <input type="date" class="form-control" id="data-nas">
+            </div>
 
-        <!-- Campo estado -->
-        <div class="form-group">
-            <label for="cidade">Cidade</label>
-            <input type="text" class="form-control" id="cidade" required>
-        </div>
-        
-        <!-- Campo estado -->
-        <div class="form-group">
-            <label for="estado">Estado</label>
-            <input type="text" class="form-control" id="estado" required>
-        </div>
+            <!-- Campo estado -->
+            <div class="form-group">
+                <label for="cidade">Cidade</label>
+                <input type="text" class="form-control" id="cidade" required>
+            </div>
+            
+            <!-- Campo estado -->
+            <div class="form-group">
+                <label for="estado">Estado</label>
+                <input type="text" class="form-control" id="estado" required>
+            </div>
 
-        <!-- Campo endereço -->
-        <div class="form-group">
-            <label for="ender">Endereço</label>
-            <input type="text" class="form-control" id="ender" required>
-        </div>
+            <!-- Campo endereço -->
+            <div class="form-group">
+                <label for="ender">Endereço</label>
+                <input type="text" class="form-control" id="ender" required>
+            </div>
 
-        <!-- Botão -->
-        <button type="submit" id="btn" class="btn btn-primary">Enviar</button>
-    </form>
+            <!-- Botão -->
+            <button type="submit" id="btn" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
